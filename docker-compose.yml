@@ -1,0 +1,73 @@
+version: '3'
+
+services:
+  mortgageservice:
+    build:
+      context: ./mortgageService
+    ports:
+      - "9001:9000"
+    command: [ "./target/universal/stage/bin/mortgageservice", "-Dplay.Mode=dev" ]
+    env_file:
+      - .env
+
+  suitabilityservice:
+    build:
+      context: ./suitabilityService
+    ports:
+      - "9002:9000"
+    command: ["./target/universal/stage/bin/suitabilityservice", "-Dplay.Mode=dev"]
+    env_file:
+      - .env
+
+  webscrapingservice:
+    build:
+      context: ./webscrapingService
+    ports:
+      - "9003:9000"
+    command: [ "./target/universal/stage/bin/webscrapingservice", "-Dplay.Mode=dev" ]
+    env_file:
+      - .env
+
+  notificationservice:
+    build:
+      context: ./notificationService
+    ports:
+      - "9004:9000"
+    command: [ "./target/universal/stage/bin/notificationservice", "-Dplay.Mode=dev" ]
+    env_file:
+      - .env
+
+  propertyservice:
+    build:
+      context: ./propertyService
+    ports:
+      - "9005:9000"
+    command: [ "./target/universal/stage/bin/propertyservice", "-Dplay.Mode=dev" ]
+    env_file:
+      - .env
+
+  calculationaggregationservice:
+    build:
+      context: ./calculationAggregationService
+    ports:
+      - "9006:9000"
+    command: [ "./target/universal/stage/bin/calculationaggregationservice", "-Dplay.Mode=dev" ]
+    env_file:
+      - .env
+
+  nextjs:
+    build:
+      context: ./nextui
+    env_file:
+      - .env
+    ports:
+      - "3000:3000"
+
+  postgres:
+    image: postgres:latest
+    ports:
+      - "5432:5432"
+    env_file:
+      .env
+    volumes:
+      - ./init-scripts:/docker-entrypoint-initdb.d

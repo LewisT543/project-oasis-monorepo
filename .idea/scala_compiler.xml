@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ScalaCompilerConfiguration">
+    <profile name="sbt 1" modules="calculationaggregationservice_9091,calculatorAggregationService,database,mortgageCalculatorService,mortgageservice_6414,notificationservice_3997,notificationservice_8221,project-oasis-monorepo,project-oasis-monorepo_7758,project-oasis-monorepo_7855,root,shared,suitabilityservice_2418,webscrapingservice_6005" />
+    <profile name="sbt 2" modules="calculationAggregationService,mortgage-service,mortgageService,notificationService,notificationService-mortgageService,notificationService.mortgageService,play-scala-seed,suitabilityService,webscrapingService">
+      <option name="deprecationWarnings" value="true" />
+      <option name="uncheckedWarnings" value="true" />
+      <parameters>
+        <parameter value="-encoding" />
+        <parameter value="utf8" />
+      </parameters>
+    </profile>
+  </component>
+</project>

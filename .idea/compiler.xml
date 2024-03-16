@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="calculationAggregationService" options="-encoding utf8 -g" />
+      <module name="mortgage-service" options="-encoding utf8 -g" />
+      <module name="mortgageService" options="-encoding utf8 -g" />
+      <module name="notificationService" options="-encoding utf8 -g" />
+      <module name="notificationService-mortgageService" options="-encoding utf8 -g" />
+      <module name="notificationService.mortgageService" options="-encoding utf8 -g" />
+      <module name="play-scala-seed" options="-encoding utf8 -g" />
+      <module name="suitabilityService" options="-encoding utf8 -g" />
+      <module name="webscrapingService" options="-encoding utf8 -g" />
+    </option>
+  </component>
+</project>
