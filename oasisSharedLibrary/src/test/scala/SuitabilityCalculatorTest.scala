@@ -1,5 +1,9 @@
+import oasisSharedLibrary.domain.{LocationLists, PublicTransportDetails, RoomRequirements, Rooms, StationDetail, StationType, SuitabilityCalculatorPartialResult}
 import org.scalatest.funspec.AnyFunSpec
 import org.scalatest.matchers.should.Matchers
+import oasisSharedLibrary.suitability.Calcs
+import oasis.suitability.Calcs.{defaultScalingFactors, getGardenSuitability, getLocationSuitability, getPriceSuitability, getPublicTransportSuitability, getRoomsSuitability, getSizeSuitability, getWeightedAverage}
+
 
 class SuitabilityCalculatorTest extends AnyFunSpec with Matchers {
   describe("getPriceSuitability") {

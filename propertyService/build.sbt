@@ -3,9 +3,9 @@ organization := "com.oasis"
 
 version := "1.0-SNAPSHOT"
 
-lazy val root = (project in file(".")).enablePlugins(PlayScala)
-
 scalaVersion := "3.3.3"
+
+lazy val root = (project in file(".")).enablePlugins(PlayScala)
 
 libraryDependencies += guice
 libraryDependencies += "org.scalatestplus.play" %% "scalatestplus-play" % "7.0.0" % Test

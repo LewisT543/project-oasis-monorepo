@@ -1,3 +1,4 @@
+import oasisSharedLibrary.domain.{PublicTransportDetails, RoomRequirements, Rooms, StationDetail, StationType, SuitabilityCalculatorPartialResult}
 
 
 object TestData {

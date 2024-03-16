@@ -2,25 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/calculationAggregationService/.idea/modules/calculationAggregationService.iml" filepath="$PROJECT_DIR$/calculationAggregationService/.idea/modules/calculationAggregationService.iml" />
-      <module fileurl="file://$PROJECT_DIR$/calculationAggregationService/.idea/modules/calculationAggregationService-build.iml" filepath="$PROJECT_DIR$/calculationAggregationService/.idea/modules/calculationAggregationService-build.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/database.iml" filepath="$PROJECT_DIR$/.idea/modules/database.iml" />
-      <module fileurl="file://$PROJECT_DIR$/database/.idea/modules/database-build.iml" filepath="$PROJECT_DIR$/database/.idea/modules/database-build.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/mortgageCalculatorService.iml" filepath="$PROJECT_DIR$/.idea/modules/mortgageCalculatorService.iml" />
       <module fileurl="file://$PROJECT_DIR$/mortgageCalculatorService/.idea/modules/mortgageCalculatorService-build.iml" filepath="$PROJECT_DIR$/mortgageCalculatorService/.idea/modules/mortgageCalculatorService-build.iml" />
-      <module fileurl="file://$PROJECT_DIR$/mortgageService/.idea/modules/mortgageService.iml" filepath="$PROJECT_DIR$/mortgageService/.idea/modules/mortgageService.iml" />
-      <module fileurl="file://$PROJECT_DIR$/mortgageService/.idea/modules/mortgageService-build.iml" filepath="$PROJECT_DIR$/mortgageService/.idea/modules/mortgageService-build.iml" />
       <module fileurl="file://$PROJECT_DIR$/nextui.iml" filepath="$PROJECT_DIR$/nextui.iml" />
-      <module fileurl="file://$PROJECT_DIR$/notificationService/.idea/modules/notificationService.iml" filepath="$PROJECT_DIR$/notificationService/.idea/modules/notificationService.iml" />
-      <module fileurl="file://$PROJECT_DIR$/notificationService/.idea/modules/notificationService-build.iml" filepath="$PROJECT_DIR$/notificationService/.idea/modules/notificationService-build.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/project-oasis-monorepo.iml" filepath="$PROJECT_DIR$/.idea/modules/project-oasis-monorepo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/project-oasis-monorepo-build.iml" filepath="$PROJECT_DIR$/.idea/modules/project-oasis-monorepo-build.iml" />
-      <module fileurl="file://$PROJECT_DIR$/shared/.idea/modules/root.iml" filepath="$PROJECT_DIR$/shared/.idea/modules/root.iml" group="shared" />
-      <module fileurl="file://$PROJECT_DIR$/shared/.idea/modules/shared-build.iml" filepath="$PROJECT_DIR$/shared/.idea/modules/shared-build.iml" />
-      <module fileurl="file://$PROJECT_DIR$/suitabilityService/.idea/modules/suitabilityService.iml" filepath="$PROJECT_DIR$/suitabilityService/.idea/modules/suitabilityService.iml" />
-      <module fileurl="file://$PROJECT_DIR$/suitabilityService/.idea/modules/suitabilityService-build.iml" filepath="$PROJECT_DIR$/suitabilityService/.idea/modules/suitabilityService-build.iml" />
-      <module fileurl="file://$PROJECT_DIR$/webscrapingService/.idea/modules/webscrapingService.iml" filepath="$PROJECT_DIR$/webscrapingService/.idea/modules/webscrapingService.iml" />
-      <module fileurl="file://$PROJECT_DIR$/webscrapingService/.idea/modules/webscrapingService-build.iml" filepath="$PROJECT_DIR$/webscrapingService/.idea/modules/webscrapingService-build.iml" />
     </modules>
   </component>
 </project>

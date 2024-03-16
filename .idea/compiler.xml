@@ -9,6 +9,8 @@
       <module name="notificationService-mortgageService" options="-encoding utf8 -g" />
       <module name="notificationService.mortgageService" options="-encoding utf8 -g" />
       <module name="play-scala-seed" options="-encoding utf8 -g" />
+      <module name="propertyService" options="-encoding utf8 -g" />
+      <module name="propertyService.mortgageService" options="-encoding utf8 -g" />
       <module name="suitabilityService" options="-encoding utf8 -g" />
       <module name="webscrapingService" options="-encoding utf8 -g" />
     </option>

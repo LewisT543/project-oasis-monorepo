@@ -26,17 +26,6 @@
         <option name="sbtVersion" value="1.9.8" />
       </SbtProjectSettings>
       <SbtProjectSettings>
-        <option name="externalProjectPath" value="$PROJECT_DIR$/database" />
-        <option name="modules">
-          <set>
-            <option value="$PROJECT_DIR$/database" />
-            <option value="$PROJECT_DIR$/database/project" />
-          </set>
-        </option>
-        <option name="resolveSbtClassifiers" value="true" />
-        <option name="sbtVersion" value="1.9.9" />
-      </SbtProjectSettings>
-      <SbtProjectSettings>
         <option name="converterVersion" value="1" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/mortgageService" />
         <option name="modules">
@@ -59,16 +48,26 @@
         <option name="sbtVersion" value="1.9.8" />
       </SbtProjectSettings>
       <SbtProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/propertyService" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/propertyService" />
+            <option value="$PROJECT_DIR$/propertyService/project" />
+          </set>
+        </option>
+        <option name="resolveClassifiers" value="false" />
+        <option name="sbtVersion" value="1.9.8" />
+      </SbtProjectSettings>
+      <SbtProjectSettings>
         <option name="externalProjectPath" value="$PROJECT_DIR$/shared" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$/shared" />
             <option value="$PROJECT_DIR$/shared/project" />
-            <option value="$PROJECT_DIR$/shared/shared" />
           </set>
         </option>
         <option name="resolveSbtClassifiers" value="true" />
-        <option name="sbtVersion" value="1.9.9" />
+        <option name="sbtVersion" value="1.9.8" />
       </SbtProjectSettings>
       <SbtProjectSettings>
         <option name="converterVersion" value="1" />
